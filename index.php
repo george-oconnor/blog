@@ -24,7 +24,7 @@
 	      		<h5>Title description, Dec 7, 2017</h5>
 	      		<div class="fakeimg" style="height:200px;">Image</div>
 	      		<p>This is an even newer new test change</p>
-	      		<button type="button" onclick="window.location.href = 'http://<?php echo $_SERVER['HTTP HOST']; ?>/refresh/refresh.php">Pull Changes</button>
+	      		<button type="button" onclick="window.location.href = 'http://<?php echo $_SERVER['HTTP_HOST']; ?>/refresh/shell.php';">Click Me!</button>
 	    	</div>
 		</a>
 
